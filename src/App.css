@@ -1,42 +1,414 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+/* App.css */
+.navbar {
+  align-items: center;
+  padding: 1rem 1.5rem;
+  padding-bottom: 1rem;
+  background-color: #00865f !important;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#newCustomerBtn {
+  background-color: white;
+  color: #00865f;
+  border: solid #00865f;
+  font-family: Roboto;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  border-radius: .25rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.form-inline div {
+  position: relative;
+  margin-left: 18rem;
 }
 
-.card {
-  padding: 2em;
+.form-inline .form-control {
+  padding-left: 30px;
+  width: 20rem;
+  background-color: #066349;
+  border: #00865f !important;
 }
 
-.read-the-docs {
-  color: #888;
+.form-inline .bi {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.input:placeholder-shown + .placeholder {
+  color: white !important;
+}
+
+::-webkit-input-placeholder {
+  color: white !important;
+  opacity: .8 !important;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+}
+
+.search-bar {
+  position: relative;
+  color: white !important;
+  border: #00865f !important;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#newUserIcon {
+  margin-right: 1px;
+}
+
+#contactIcon {
+  margin-right: .75em;
+  margin-left: .75em;
+}
+
+#megaphoneIcon {
+  color: #22d3ee;
+  margin-right: .75rem;
+}
+
+#descIcon {
+  color: #06b6d4;
+  margin-left: .75rem;
+}
+
+#ticketIcon {
+  color: #22d3ee;
+  margin-right: 15px;
+}
+
+#phoneIcon {
+  color: #6d817b;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 0rem;
+  padding: 1.5rem 1rem;
+  padding-bottom: 1rem;
+}
+
+.table {
+  table-layout: fixed;
+  width: 100%;
+  border: hidden;
+}
+
+tr {
+  display: flex;
+  align-items: center;
+  color: #282f2f;
+}
+
+th {
+  display: flex;
+  align-items: center;
+  flex: 1 0 0;
+  font-size: .75rem;
+  font-weight: 450;
+  font-family: Roboto;
+  line-height: 1rem;
+  letter-spacing: .0375rem;
+  background-color: #ecfeff !important;
+  color: #0e7490 !important;
+  border: hidden;
+}
+
+.table tbody tr td {
+  padding-top: 1rem;
+}
+
+td {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-left: .75em;
+  flex: 1 0 0;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  border-bottom: none;
+}
+
+.table thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+.table thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+.table thead tr:last-child th:first-child {
+  border-bottom-left-radius: 10px;
+}
+
+.table thead tr:last-child th:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+.modal-dialog {
+  max-width: 90%;
+}
+
+.modal-header {
+  color: white;
+  background-color: #00865f;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.75rem;
+}
+
+.form-label {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #525e5b;
+}
+
+.modalHeaders {
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-bottom: .5rem;
+  color: #282f2f;
+  border-radius: 5rem;
+}
+
+#stateZip {
+  display: flex;
+  align-self: flex-start;
+}
+
+#formState {
+  display: flex;
+  width: 6.375rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .25rem;
+  flex-shrink: 0;
+  margin-right: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#formZip {
+  display: flex;
+  max-width: 20.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .25rem;
+  flex: 1 0 0;
+}
+
+#formSpacing {
+  margin-bottom: 1rem;
+}
+
+#newEquiptmentBtn {
+  color: #00865f;
+  border: 1px solid #00865f;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1rem;
+  display: flex;
+  padding: .5625rem .75rem;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  border-radius: .375rem;
+  height: 2rem;
+  margin-bottom: 1.5em;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .05);
+}
+
+#modalNotes {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+  align-self: stretch;
+}
+
+#modalNotesArea {
+  height: 11.875rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+  align-self: stretch;
+  margin-bottom: .5em;
+}
+
+#createBtn {
+  color: white;
+  background-color: #00865f;
+  border: solid #00865f;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .05);
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+#cancelBtn {
+  background-color: white;
+  color: #525e5b;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  border: none;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+}
+
+.modal-content {
+  border-radius: 1.55rem;
+}
+
+.custom-close-button {
+  color: white !important;
+}
+
+#farmNameModal {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #ffffffcc;
+}
+
+.contactMap {
+  display: flex;
+}
+
+.map-image {
+  border-radius: .25rem;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-top: .5rem;
+  margin-right: 1.5rem;
+}
+
+.notesModal {
+  display: flex;
+}
+
+#textAreaModal {
+  height: 10rem;
+}
+
+.cardHeader {
+  color: #6d817b;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  border: none;
+}
+
+
+
+.contactText {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #282f2f;
+  border: none;
+}
+
+.noBorder {
+  border: none;
+}
+
+#editBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 4rem;
+  border-radius: .25rem;
+  border: 1px solid #00865f;
+  color: #00865f;
+  background-color: #ffffff;
+  font-family: Roboto;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.equipmentCard {
+  border: none;
+  margin-bottom: 1.5rem;
+}
+
+.equipmentTitle {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #00865f;
+}
+
+.equipmentCompany {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #6d817b;
+}
+
+.rowsSpacing {
+  display: flex;
+  justify-content: flex-end;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #6D817B;
+}
+
+.ticketsCard {
+  border: none;
 }

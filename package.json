@@ -6,23 +6,37 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "DEBUG=eslint:cli-engine eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "bootstrap": "^5.3.2",
+    "heroicons": "^2.0.18",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-bootstrap": "^2.9.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
+    "@precisionplanting/eslint-config": "git+https://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@github.com/prp-cloud/eslint-config.git",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "@typescript-eslint/eslint-plugin": "^6.0.0",
-    "@typescript-eslint/parser": "^6.0.0",
     "@vitejs/plugin-react": "^4.0.3",
-    "eslint": "^8.45.0",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.4.3",
     "typescript": "^5.0.2",
     "vite": "^4.4.5"
+  },
+  "eslintConfig": { 
+    "extends": "@precisionplanting",
+    "settings": {
+      "tailwindcss": {
+        "cssFiles": [
+          "node_modules/bootstrap/dist/css/bootstrap.css",
+          "src/App.css"
+        ]
+      }
+    },
+    "rules": {
+      "react/forbid-dom-props": "off"
+    } 
   }
 }
