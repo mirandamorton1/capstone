@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { Modal, Button, Card, ListGroup, Image } from "react-bootstrap";
 import { BiEnvelope } from "react-icons/bi";
 import { HiOutlineAtSymbol } from "react-icons/hi";

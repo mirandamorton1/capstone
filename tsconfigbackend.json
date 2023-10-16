@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "target": "Esnext",
+        "module": "nodenext"
+    },
+    "include": ["src/index.ts"]
+}

@@ -1,0 +1,87 @@
+id,profileName,make,model,year,cmbElevatorSize,cmbMoistureSensor,cmbGPSMake,cmbGPSModel,equipment_type
+1782,Case IH 1460,Case IH,1460,2000,,Other,None,None,Combine
+3153,Case IH 1660,Case IH,1660,1992,,None,Trimble,EZGuide500,Combine
+3103,1666,Case IH,1666,2000,,AgLeader,AgLeader,1500,Combine
+2722,Case IH 1680,Case IH,1680,1986,,Case IH,None,None,Combine
+3796,Case IH 1688,Case IH,1688,1994,,AgLeader,John Deere,StarFire 3000,Combine
+3119,Herb Hansen,Case IH,2166,2001,,None,None,None,Combine
+3696,Randy's Combine,Case IH,2188,2000,Chain with Paddles for 9 Tooth,AgLeader,Hemisphere,A100,Combine
+3321,Case IH 2344,Case IH,2344,2001,,Case IH,AgLeader,5100,Combine
+2938,Case IH 2366,Case IH,2366,2012,,Case IH,Trimble,EZGuide500,Combine
+3620,Miller,Case IH,2377,2008,Chain with Paddles for 9 Tooth,AgLeader,AgLeader,1500,Combine
+2839,Case IH 2388,Case IH,2388,2014,,Agco,Hemisphere,A221,Combine
+3294,2577 Case IH,Case IH,2577,2010,,Case IH,CaseIH,FM1000,Combine
+3300,Henderson,Case IH,2588,2013,,Case IH,CaseIH,FM1000,Combine
+3080,tim,Case IH,5088,2013,,Case IH,AgLeader,1500,Combine
+1499,Case IH 5130,Case IH,5130,2014,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3704,Case IH 5140,Case IH,5140,2017,Chain with Paddles for 9 Tooth,Case IH,Trimble,AG372,Combine
+3520,lanners,Case IH,6088,2014,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3552,Case IH 6130,Case IH,6130,2014,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3510,Case IH 6140,Case IH,6140,2016,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3456,Case IH 5088,Case IH,7010,2012,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3145,Case IH 7088,Case IH,7088,2015,,Case IH,CaseIH,FM1000,Combine
+3784,Case IH 1660,Case IH,7120,2015,Chain with Paddles for 9 Tooth,Case IH,Trimble,FMX,Combine
+3591,Case IH 7130,Case IH,7130,2016,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3785,Case IH 7140,Case IH,7140,2016,Chain with Paddles for 9 Tooth,Case IH,Trimble,AG372,Combine
+3307,Bonner 6088,Case IH,7230,2016,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3590,Case IH 7240,Case IH,7240,2015,Chain with Paddles for 9 Tooth,AgLeader,CaseIH,FM1000,Combine
+3160,Case 8010,Case IH,8010,2012,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3491,Case IH 8120,Case IH,8120,2016,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3661,Mike Unick,Case IH,8230,2016,Chain with Paddles for 9 Tooth,Case IH,John Deere,StarFire ITC,Combine
+3538,8240 combine,Case IH,8240,2016,Chain with Paddles for 9 Tooth,Case IH,Trimble,AG372,Combine
+2071,Case IH 9120,Case IH,9120,2014,Chain with Paddles for 9 Tooth,AgLeader,AgLeader,AgGPS106,Combine
+3167,Case 9240,Case IH,9230,2015,Chain with Paddles for 9 Tooth,Case IH,CaseIH,FM1000,Combine
+3799,Case IH 9240,Case IH,9240,2017,Chain with Paddles for 9 Tooth,Case IH,Trimble,AG372,Combine
+1535,2016 Lexion 740TT,Claas,470,2016,,AgLeader,AgLeader,1500,Combine
+3324,750 Lexion,Claas,580,2014,,AgLeader,Trimble,FMX,Combine
+1487,Claas 595,Claas,595,2012,,Other,Trimble,FMX,Combine
+2803,Gleaner M3,Gleaner,M3,1989,,AgLeader,AgLeader,PF3000,Combine
+2586,R50,Gleaner,R50,1989,,None,None,None,Combine
+2764,Gleaner R62,Gleaner,R62,2003,,None,Other,Other,Combine
+1924,Gleaner R65,Gleaner,R65,2008,,Agco,Hemisphere,A100,Combine
+3181,Gleaner R66,Gleaner,R66,2011,,AgLeader,AgLeader,1500,Combine
+1441,2002 R72,Gleaner,R72,2002,,AgLeader,AgLeader,1500,Combine
+3347,Gleaner S77,Gleaner,S77,2014,,AgLeader,Other,Other,Combine
+3660,Andrew Dawson,John Deere,9400,2008,Chain with Paddles for 8 Tooth,None,None,None,Combine
+2608,9410,John Deere,9410,1999,,John Deere,Trimble,EZGuide500,Combine
+1918,John Deere 9450,John Deere,9450,2003,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire,Combine
+3763,John Deere 9500,John Deere,9500,2017,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire 3000,Combine
+3597,JOHN DOOBIE  JD 9510,John Deere,9510,2004,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire,Combine
+3485,Toth Farms,John Deere,9550,2012,Chain with Paddles for 8 Tooth,John Deere,None,None,Combine
+3557,Dave Toth,John Deere,9560,2013,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire 3000,Combine
+3568,John Deere 9570,John Deere,9570,2013,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire 3000,Combine
+2857,John Deere 9600,John Deere,9600,2006,,John Deere,John Deere,StarFire,Combine
+2979,Brad Pauli,John Deere,9610,2003,,None,None,None,Combine
+1651,John Deere 9650,John Deere,9650,2012,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire,Combine
+1013,Pat Duncanson,John Deere,9660,2013,Chain with Paddles for 8 Tooth,AgLeader,John Deere,StarFire 3000,Combine
+2852,John Deere S670_01,John Deere,9670,2014,Chain with Paddles for 8 Tooth,Precision Planting,John Deere,StarFire ITC,Combine
+1263,John Deere 9750,John Deere,9750,2010,Chain with Paddles for 8 Tooth,John Deere,None,None,Combine
+2452,John Deere 9760,John Deere,9760,2013,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire 3000,Combine
+3598,John Deere 9770,John Deere,9770,2015,Chain with Paddles for 10 Tooth,John Deere,John Deere,StarFire 3000,Combine
+2881,Frankie Vessels,John Deere,9860,2013,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire,Combine
+2976,Carr 9870,John Deere,9870,2014,Chain with Paddles for 10 Tooth,John Deere,John Deere,StarFire ITC,Combine
+2925,John Deere S550,John Deere,S550,2013,Chain with Paddles for 8 Tooth,John Deere,Hemisphere,A100,Combine
+35,Combine number1,John Deere,S560,2013,Chain with Paddles for 8 Tooth,AgLeader,CaseIH,FM1000,Combine
+3706,John Deere 9570,John Deere,S660,2017,Chain with Paddles for 8 Tooth,John Deere,John Deere,StarFire 3000,Combine
+2802,John Deere S770,John Deere,S670,2018,Chain with Paddles for 10 Tooth,John Deere,John Deere,StarFire 3000,Combine
+3777,John Deere S680,John Deere,S680,2017,Chain with Paddles for 10 Tooth,John Deere,John Deere,StarFire 3000,Combine
+3716,JD S690,John Deere,S690,2016,Chain with Paddles for 11 Tooth,John Deere,John Deere,StarFire 3000,Combine
+3328,Lexicon 460,Lexion,460,2000,,AgLeader,Trimble,AG252,Combine
+1534,2015 Lexion 740TT,Lexion,470,2013,,AgLeader,AgLeader,1500,Combine
+2466,Cat 475,Lexion,475,2010,,None,Outback,S2,Combine
+2659,Lexion 560,Lexion,560,2010,,AgLeader,AgLeader,AgGPS1000,Combine
+3283,Lexion 590,Lexion,580,2014,,Agco,John Deere,StarFire ITC,Combine
+3169,Lexion 585,Lexion,585,2007,,AgLeader,AgLeader,AgGPS1000,Combine
+3779,Lexion 750,Lexion,595,2018,,Other,Trimble,FMX,Combine
+3390,Gene Bula,Massey-Ferguson,8780,2001,,None,AgLeader,AgGPS262,Combine
+1591,Massey-Ferguson 7282,Massey-Ferguson,9795,2011,,AgLeader,AgLeader,AgGPS114,Combine
+3222,CR 7090,New Holland,CR7090,2013,,Case IH,Other,Other,Combine
+3230,CR8090,New Holland,CR8090,2014,,Case IH,Trimble,AG252,Combine
+3745,Ryan Peter Combine,New Holland,CR9040,2008,,None,Trimble,EZGuide250,Combine
+2160,greg westerhouse,New Holland,CR9060,2013,,Other,Trimble,FMX,Combine
+3360,NH CR 9070,New Holland,CR9070,2011,,Other,Trimble,FMX,Combine
+2780,New Holland CR940,New Holland,CR940,2005,,AgLeader,None,None,Combine
+3720,New Holland CR960,New Holland,CR960,2013,,AgLeader,Trimble,AG262,Combine
+3403,New Holland TR88,New Holland,TR88,2003,,Other,Other,Other,Combine
+1605,TR 97,New Holland,TR97,1995,,Other,Trimble,EZGuide500,Combine
+3600,New Holland TX68,New Holland,TX68,1998,,AgLeader,Trimble,FMX,Combine

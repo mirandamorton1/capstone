@@ -1,0 +1,303 @@
+quote_id,equipment_type,"GROUP_CONCAT(CONCAT(' ',e.equipment_name, ': ', t.value))",Make,Model
+1340380,Sprayer,"Sprayer Make: Haggie , Sprayer Model: Sts 12 , Year: 2019",Haggie ,Sts 12 
+1340346,Sprayer,"Sprayer Make: John Deere , Sprayer Model: 4023",John Deere ,4023
+1339974,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 58, Row Spacing: 7.5"", Air Seeder Model: 1990, Number of Ranks: 6, Frame Type: 3 Section, Variable Rate Motor Brand: John Deere",John Deere,1990
+1339817,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 15"", Air Seeder Model: 1690",John Deere,1690
+1338881,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 10"", Air Seeder Model: 1890, Number of Towers: 8, Tractor Make: Other:Veristile",John Deere,1890
+1338321,Air Seeder,"Air Seeder Make: CNH, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 50T",CNH,50T
+1338192,Sprayer,"Sprayer Make: Apache , Sprayer Model: AS850, Year: 2022",Apache ,AS850
+1337708,Sprayer,"Sprayer Make: Apache, Sprayer Model: AS1240",Apache,AS1240
+1336900,Air Seeder,"Air Seeder Make: John Deere, Row Spacing: 7.5"", Air Seeder Model: 1990 CCS",John Deere,1990 CCS
+1336722,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS 12, Year: 2012",Hagie,STS 12
+1336701,Sprayer,"Sprayer Make: John Deere , Sprayer Model: 4038R",John Deere ,4038R
+1336691,Sprayer,"Sprayer Make: John Deere , Sprayer Model: R4045, Year: 2019",John Deere ,R4045
+1336486,Sprayer,"Sprayer Make: Case, Sprayer Model: SPX 3185",Case,SPX 3185
+1336052,Sprayer,"Sprayer Make: caseih, Sprayer Model: 4430",caseih,4430
+1335858,Air Seeder,"Air Seeder Make: Other:Soil Warrior, Number of Rows: 24, Row Spacing: 30"", Air Seeder Model: 5060, Number of Tanks: 3, # of VR Motors: 3",Other,5060
+1335847,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: 1890",John Deere,1890
+1335776,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 10"", Air Seeder Model: 1890, Number of Towers: 6, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6, Frame Type: 3 Section",John Deere,1890
+1335729,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Row Spacing: 10"", Air Seeder Model: 1890, Year: 2019",John Deere,1890
+1335674,Air Seeder,"Air Seeder Make: John Deere, Row Spacing: 10"", Air Seeder Model: 1990",John Deere,1990
+1335636,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Air Seeder Model: 1890, Year: 2019",John Deere,1890
+1335407,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 60, Air Seeder Model: 1895 pro series",John Deere,1895 pro series
+1335129,Sprayer,Sprayer Model: 3330,,3330
+1335021,Sprayer,"Sprayer Make: CaseIH, Sprayer Model: 4420",CaseIH,4420
+1334693,Sprayer,"Sprayer Make: JD, Sprayer Model: 4630",JD,4630
+1334622,Sprayer,"Sprayer Make: Case, Sprayer Model: 4420",Case,4420
+1334449,Sprayer,"Sprayer Make: RTG, Sprayer Model: 1300, Year: 2013",RTG,1300
+1334446,Sprayer,"Sprayer Make: rogator, Sprayer Model: 1300, Year: 2013",rogator,1300
+1334431,Sprayer,"Sprayer Make: RoGator, Sprayer Model: 1300, Year: 2013",RoGator,1300
+1334407,Sprayer,"Sprayer Make: Fast, Sprayer Model: 132' 6 sections, Year: 2023",Fast,132
+1334338,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4030",John Deere,R4030
+1334093,Sprayer,"Sprayer Make: Haggie, Sprayer Model: Sts16, Year: 2017",Haggie,Sts16
+1333477,Sprayer,"Sprayer Make: rogator, Sprayer Model: rg11",rogator,rg11
+1332803,Sprayer,"Sprayer Make: Case, Sprayer Model: PAtriot, Year: 2017",Case,PAtriot
+1332665,Sprayer,"Sprayer Make: Hagie, Sprayer Model: Sts 12, Year: 2020",Hagie,Sts 12
+1332426,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4830, Year: 2013",John Deere,4830
+1332035,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS12",Hagie,STS12
+1331720,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Rock Shafts: 2, Frame Type: 3 Section",John Deere,1890
+1331343,Sprayer,"Sprayer Make: CASE, Sprayer Model: Patriot 3330, Year: 2016",CASE,Patriot 3330
+1331339,Sprayer,"Sprayer Make: New Holland, Sprayer Model: Guardian, Year: 2018",New Holland,Guardian
+1331250,Sprayer,"Sprayer Make: john Deere, Sprayer Model: 4045",john Deere,4045
+1331206,Sprayer,"Sprayer Make: NH , Sprayer Model: Guardian 36m, Year: 2018",NH ,Guardian 36m
+1330761,Sprayer,"Sprayer Make: JOHN DEERE, Sprayer Model: 4630",JOHN DEERE,4630
+1330608,Sprayer,"Sprayer Make: JD, Sprayer Model: 4038",JD,4038
+1330371,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 24, Row Spacing: 7.5"", Air Seeder Model: 1560",John Deere,1560
+1330328,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4630",John Deere,4630
+1329971,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 4430",Case IH,4430
+1329911,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4730",John Deere,4730
+1329603,Sprayer,"Sprayer Make: HN, Sprayer Model: SP Guardian, Year: 2015",HN,SP Guardian
+1329203,Sprayer,"Sprayer Make: JD, Sprayer Model: 4044R",JD,4044R
+1329060,Sprayer,"Sprayer Make: Miller , Sprayer Model: Nitro 4275, Year: 2012",Miller ,Nitro 4275
+1329053,Sprayer,"Sprayer Make: Deere, Sprayer Model: 4730",Deere,4730
+1328429,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4930",John Deere,4930
+1328414,Sprayer,"Sprayer Make: Miller, Sprayer Model: 5333",Miller,5333
+1328084,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Year: 2021, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6, Frame Type: 3 Section, Variable Rate Motor Brand: John Deere",John Deere,1890
+1328040,Sprayer,"Sprayer Make: Case, Sprayer Model: Patriot 4430",Case,Patriot 4430
+1327983,Sprayer," Sprayer Make: Hagie, Sprayer Model: sts",Hagie,sts
+1327799,Sprayer,"Sprayer Make: Rogator, Sprayer Model: 1100B, Year: 2015",Rogator,1100B
+1327285,Sprayer,"Sprayer Make: case, Sprayer Model: 4420",case,4420
+1327207,Sprayer,"Sprayer Make: JD, Sprayer Model: 4830",JD,4830
+1327124,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4044",John Deere,4044
+1327123,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4930, Year: 20009",John Deere,4930
+1327073,Sprayer,"Sprayer Make: JD, Sprayer Model: 4730",JD,4730
+1326919,Sprayer,"Sprayer Make: JD, Sprayer Model: 4730, Year: 2017",JD,4730
+1326403,Sprayer,"Sprayer Make: John Deer, Sprayer Model: 4440, Year: 2020",John Deer,4440
+1326323,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS12, Year: 2017",Hagie,STS12
+1326322,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 7.5"", Air Seeder Model: 1990",John Deere,1990
+1326229,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS, Year: 2016",Hagie,STS
+1326191,Sprayer,"Sprayer Make: JD, Sprayer Model: 4940, Year: 2013",JD,4940
+1326105,Sprayer,"Sprayer Make: New Holland, Sprayer Model: SP400F",New Holland,SP400F
+1326067,Sprayer,"Sprayer Make: JD , Sprayer Model: 4038, Year: 2019",JD ,4038
+1326049,Sprayer,"Sprayer Make: John Deere , Sprayer Model: 4830",John Deere ,4830
+1326029,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4830",John Deere,4830
+1325925,Air Seeder,"Air Seeder Make: CNH, Number of Rows: 64, Air Seeder Model: STX, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 2, Frame Type: 3 Section, Variable Rate Motor Brand: CNH, # of VR Motors: 2, Tractor Make: CNH",CNH,STX
+1325860,Sprayer,"Sprayer Make: New Holland, Sprayer Model: 310, Year: 2019",New Holland,310
+1325793,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4038, Year: 2014",John Deere,R4038
+1325660,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4830, Year: 2015",John Deere,4830
+1325504,Sprayer,"Sprayer Make: John Deere , Sprayer Model: R4045, Year: 2015",John Deere ,R4045
+1325239,Sprayer,"Sprayer Make: JD 4730, Sprayer Model: John Deere 4730",JD 4730,John Deere 4730
+1325072,Sprayer,"Sprayer Make: Rogator , Sprayer Model: 1100RG, Year: 2013",Rogator ,1100RG
+1325053,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 53, Row Spacing: 10"", Air Seeder Model: 1910, Year: 2007, Number of Towers: 6, Number of Tanks: 2, Number of Ranks: 3, Number of Rock Shafts: 0, Frame Type: 3 Section, GPS Model: JD2630, Tractor Make: John Deere",John Deere,1910
+1324888,Sprayer,"Sprayer Make: John Deere, Sprayer Model: r4038, Year: 2015",John Deere,r4038
+1324853,Sprayer,"Sprayer Make: casw, Sprayer Model: 4430",casw,4430
+1324766,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4044, Year: 2019",John Deere,4044
+1324695,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 56, Row Spacing: 7.5"", Air Seeder Model: 1830, Number of Towers: 6, Frame Type: 3 Section",John Deere,1830
+1324635,Sprayer,"Sprayer Make: New Holland, Sprayer Model: SP310F, Year: 2022",New Holland,SP310F
+1324442,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 10"", Air Seeder Model: 1890, Number of Towers: 48, Number of Ranks: 2, Number of Rock Shafts: 6",John Deere,1890
+1324291,Sprayer,"Sprayer Make: john deere, Sprayer Model: 4730",john deere,4730
+1323763,Sprayer,"Sprayer Make: JD, Sprayer Model: 4720",JD,4720
+1323738,Sprayer,"Sprayer Make: Rogator, Sprayer Model: 1074",Rogator,1074
+1323737,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4038, Year: 2017",John Deere,R4038
+1323654,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4830, Year: 2016",John Deere,4830
+1323641,Sprayer,"Sprayer Make: CIH, Sprayer Model: 4420",CIH,4420
+1323623,Sprayer,"Sprayer Make: John Deerd, Sprayer Model: 4930",John Deerd,4930
+1323616,Sprayer,"Sprayer Make: rogator, Sprayer Model: 874",rogator,874
+1323486,Sprayer,"Sprayer Make: Apache, Sprayer Model: AS1025",Apache,AS1025
+1323478,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 4440",Case IH,4440
+1323474,Sprayer,"Sprayer Make: patriot, Sprayer Model: 4440",patriot,4440
+1323468,Sprayer,"Sprayer Make: CaseIH, Sprayer Model: 4440",CaseIH,4440
+1323435,Sprayer,"Sprayer Make: hagie, Sprayer Model: sts10, Year: 2005",hagie,sts10
+1323313,Sprayer,"Sprayer Make: JD, Sprayer Model: 400 series , Year: 2022",JD,400 series 
+1322951,Sprayer,"Sprayer Make: CIH , Sprayer Model: 4440, Year: 132' boomd",CIH ,4440
+1322738,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS 12",Hagie,STS 12
+1322654,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS, Year: 2020",Hagie,STS
+1322632,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4023",John Deere,R4023
+1322463,Sprayer,"Sprayer Make: RoGator, Sprayer Model: 664",RoGator,664
+1322395,Sprayer,"Sprayer Make: John Deere , Sprayer Model: 4730",John Deere ,4730
+1322308,Sprayer,"Sprayer Make: Case, Sprayer Model: 4430",Case,4430
+1322279,Sprayer,"Sprayer Make: Rogater , Sprayer Model: 1074SS",Rogater ,1074SS
+1322255,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 78, Row Spacing: 10"", Air Seeder Model: 1895",John Deere,1895
+1322227,Sprayer,"Sprayer Make: hagie, Sprayer Model: sts16, Year: 2017",hagie,sts16
+1322225,Sprayer,"Sprayer Make: jd, Sprayer Model: 4830",jd,4830
+1321982,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 36, Air Seeder Model: 1990, Number of Tanks: 1, # of VR Motors: 1",John Deere,1990
+1321953,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 10"", Air Seeder Model: 1890, Number of Towers: 8",John Deere,1890
+1321951,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 10"", Air Seeder Model: 1990 CCS",John Deere,1990 CCS
+1321941,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Air Seeder Model: 1990CCS",John Deere,1990CCS
+1321909,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 4330",Case IH,4330
+1321816,Sprayer,"Sprayer Make: FAST , Sprayer Model: 9573P, Year: ?",FAST ,9573P
+1321780,Sprayer,"Sprayer Make: hagie, Sprayer Model: sts12, Year: 19",hagie,sts12
+1321778,Sprayer,"Sprayer Make: hagie, Sprayer Model: hagie sts 12",hagie,hagie sts 12
+1321770,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4038 Sprayer",John Deere,4038 Sprayer
+1321653,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 40, Row Spacing: 10"", Air Seeder Model: 1890",John Deere,1890
+1321503,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS12, Year: 2007",Hagie,STS12
+1321136,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: 1990CCS",John Deere,1990CCS
+1320936,Sprayer," Sprayer Make: GVM PROWLER, Sprayer Model: BLACK",GVM PROWLER,BLACK
+1320910,Sprayer,"Sprayer Make: Case, Sprayer Model: 4440, Year: 2020",Case,4440
+1320875,Sprayer,"Sprayer Make: Case, Sprayer Model: 3340",Case,3340
+1320783,Sprayer,"Sprayer Make: Rogator , Sprayer Model: 1100C",Rogator ,1100C
+1320675,Sprayer,"Sprayer Make: New Holland, Sprayer Model: SP310f",New Holland,SP310f
+1320464,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4038, Year: 2016",John Deere,R4038
+1320441,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 36, Row Spacing: 10"", Air Seeder Model: 1990, Year: 2012, Number of Tanks: 1, Number of Rock Shafts: 2",John Deere,1990
+1320433,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 3330, Year: 2009",Case IH,3330
+1320404,Sprayer,"Sprayer Make: New Holland, Sprayer Model: 310F, Year: 2023",New Holland,310F
+1320385,Sprayer,"Sprayer Make: deere, Sprayer Model: 4630",deere,4630
+1320366,Sprayer,"Sprayer Make: case, Sprayer Model: 4440, Year: 2015",case,4440
+1320362,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4030",John Deere,4030
+1320331,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4630, Year: 2010",John Deere,4630
+1320297,Sprayer,"Sprayer Make: john deere, Sprayer Model: 4630, Year: 2010",john deere,4630
+1320280,Sprayer,"Sprayer Make: Rogator, Sprayer Model: 854, Year: 1998",Rogator,854
+1319977,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 52, Row Spacing: 10"", Air Seeder Model: 1895, Tractor Make: CNH, Tractor Model: STX535",John Deere,1895
+1319941,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Air Seeder Model: 1890",John Deere,1890
+1319750,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 7038",John Deere,7038
+1319713,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 44, Row Spacing: 7.5"", Air Seeder Model: 1890",John Deere,1890
+1319576,Air Seeder,"Air Seeder Make: John Deere, Row Spacing: 10"", Air Seeder Model: 1890",John Deere,1890
+1319545,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 10"", Air Seeder Model: 1890",John Deere,1890
+1319531,Sprayer,"Sprayer Make: NH, Sprayer Model: 300",NH,300
+1319522,Sprayer,"Sprayer Make: Case, Sprayer Model: Patriot 4440",Case,Patriot 4440
+1319312,Air Seeder,"Air Seeder Make: Great Plains, Number of Rows: 50, Row Spacing: 10"", Air Seeder Model: ADC 2350",Great Plains,ADC 2350
+1319280,Sprayer,"Sprayer Make: JD, Sprayer Model: R4030, Year: 2018",JD,R4030
+1319241,Sprayer,"Sprayer Make: John DEERE, Sprayer Model: 4940",John DEERE,4940
+1319222,Sprayer,"Sprayer Make: New Holland, Sprayer Model: SP275F , Year: 2012",New Holland,SP275F 
+1319054,Sprayer,"Sprayer Make: Top Air, Sprayer Model: 1600",Top Air,1600
+1318794,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4038",John Deere,R4038
+1318775,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 3330",Case IH,3330
+1318733,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Row Spacing: 10"", Air Seeder Model: 1895, Frame Type: 5 Section",John Deere,1895
+1318683,Sprayer,"Sprayer Make: Hagie , Sprayer Model: STS12, Year: 2020",Hagie ,STS12
+1318598,Sprayer,"Sprayer Make: caseih, Sprayer Model: 4440",caseih,4440
+1318574,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4730, Year: 2008",John Deere,4730
+1318556,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4750",John Deere,4750
+1318215,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 3340, Year: 2020",Case IH,3340
+1318167,Sprayer,"Sprayer Make: rogator, Sprayer Model: 1084, Year: 12",rogator,1084
+1318161,Sprayer,"Sprayer Make: JD, Sprayer Model: 4038R",JD,4038R
+1318157,Sprayer,"Sprayer Make: Apache, Sprayer Model: AS720",Apache,AS720
+1318056,Sprayer,Sprayer Model: 4038r,,4038r
+1317732,Sprayer,"Sprayer Make: RoGator, Sprayer Model: 700",RoGator,700
+1317705,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 7.5"", Air Seeder Model: 1520, Frame Type: Single Section",John Deere,1520
+1317681,Sprayer,"Sprayer Make: case ih, Sprayer Model: 3330, Year: 2014",case ih,3330
+1317604,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 7810",John Deere,7810
+1317528,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Air Seeder Model: 1990 ccs",John Deere,1990 ccs
+1317447,Sprayer,"Sprayer Make: JD, Sprayer Model: 4730 w/ 120' booms",JD,4730 w
+1317352,Sprayer,"Sprayer Make: JD, Sprayer Model: 4830, Year: 2022",JD,4830
+1317249,Sprayer,"Sprayer Make: Case, Sprayer Model: 4440, Year: 2017",Case,4440
+1316976,Sprayer,"Sprayer Make: New Holland, Sprayer Model: SPF 130",New Holland,SPF 130
+1316786,Sprayer,"Sprayer Make: John Deere , Sprayer Model: 616R, Year: 2023",John Deere ,616R
+1316403,Sprayer,"Sprayer Make: jd, Sprayer Model: 4030, Year: 2015",jd,4030
+1316247,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS16",Hagie,STS16
+1316244,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4030, Year: 2018",John Deere,R4030
+1316049,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 80, Row Spacing: 7.5"", Air Seeder Model: N550, Year: New, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 10, Frame Type: 5 Section",John Deere,N550
+1316041,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 35, Row Spacing: 10"", Air Seeder Model: 1990, Number of Ranks: 2, Frame Type: 3 Section",John Deere,1990
+1315850,Sprayer,"Sprayer Make: Rogator, Sprayer Model: 1286",Rogator,1286
+1315112,Sprayer,"Sprayer Make: JD , Sprayer Model: 4830 100' 7 section",JD ,4830 100
+1314260,Sprayer,"Sprayer Make: Case, Sprayer Model: 4440",Case,4440
+1314231,Sprayer,"Sprayer Make: CASE, Sprayer Model: 4440 120ft",CASE,4440 120ft
+1314208,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4940",John Deere,4940
+1313927,Sprayer,"Sprayer Make: Case, Sprayer Model: SPX, Year: 2012",Case,SPX
+1313428,Sprayer,"Sprayer Make: John deere, Sprayer Model: 4030, Year: 2021",John deere,4030
+1313296,Sprayer,"Sprayer Make: case, Sprayer Model: 4440, Year: 2018",case,4440
+1313265,Sprayer,"Sprayer Make: booms, Sprayer Model: booms, Year: 1",booms,booms
+1313196,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4045",John Deere,R4045
+1313195,Sprayer,"Sprayer Make: Apache, Sprayer Model: AS715, Year: 2010",Apache,AS715
+1313185,Sprayer,"Sprayer Make: JD, Sprayer Model: 4044",JD,4044
+1312863,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4038, Year: 2019",John Deere,R4038
+1312226,Sprayer,"Sprayer Make: Case ih, Sprayer Model: 4440",Case ih,4440
+1312224,Sprayer,"Sprayer Make: Fast, Sprayer Model: 9518",Fast,9518
+1312194,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Row Spacing: 10"", Air Seeder Model: N560, Year: 2023, Number of Towers: 8, Number of Tanks: 3, Number of Ranks: 2, Number of Rock Shafts: 10, Frame Type: 5 Section, Tractor Make: John Deere, Tractor Model: 9620RX",John Deere,N560
+1312163,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4940 120ft boom 11 sections 1200 gal, Year: 2014",John Deere,4940 120ft boom 11 sections 1200 gal
+1312063,Sprayer,"Sprayer Make: Apache, Sprayer Model: AS720, Year: 2013",Apache,AS720
+1312038,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 144, Row Spacing: Other:12, Air Seeder Model: John Deere 1870, Year: 2018, Number of Towers: 16 (8/8), Number of Tanks: 5, Number of Ranks: 2, Frame Type: 5 Section, Tractor Make: John Deere, Tractor Model: 9R640",John Deere,John Deere 1870
+1312000,Sprayer,"Sprayer Make: RoGator, Sprayer Model: RG1300, Year: 2015",RoGator,RG1300
+1311721,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Row Spacing: 10"", Air Seeder Model: N560, Year: 2023, Number of Towers: 8, Number of Ranks: 2, Number of Rock Shafts: 10, Frame Type: 5 Section, Tractor Make: John Deere",John Deere,N560
+1311493,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Row Spacing: 10"", Air Seeder Model: N560, Year: 2023, Number of Towers: 8, Number of Ranks: 2",John Deere,N560
+1311473,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 72, Row Spacing: 10"", Air Seeder Model: N560, Year: 2023, Number of Tanks: 3, Number of Ranks: 2",John Deere,N560
+1311448,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4830, Year: 2008",John Deere,4830
+1311256,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Air Seeder Model: 1895",John Deere,1895
+1310548,Sprayer,"Sprayer Make: RG, Sprayer Model: 1300",RG,1300
+1310534,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 31, Row Spacing: 15"", Air Seeder Model: 1690",John Deere,1690
+1310423,Sprayer,"Sprayer Make: JD, Sprayer Model: 4730, Year: 2014",JD,4730
+1310336,Sprayer,"Sprayer Make: Case , Sprayer Model: 4420, Year: 2007",Case ,4420
+1310299,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 3340",Case IH,3340
+1310295,Sprayer,"Sprayer Make: john deere, Sprayer Model: r4045, Year: 2015",john deere,r4045
+1310252,Sprayer,"Sprayer Make: Rogator, Sprayer Model: 874",Rogator,874
+1310243,Sprayer,"Sprayer Make: MIller, Sprayer Model: 4240HT, Year: 2011",MIller,4240HT
+1310237,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4045, Year: 2020",John Deere,4045
+1310223,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4023, Year: 2019",John Deere,4023
+1310208,Sprayer,"Sprayer Make: Apache, Sprayer Model: AS1220",Apache,AS1220
+1310187,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4720, Year: 2012",John Deere,4720
+1310171,Sprayer,"Sprayer Make: Haggi, Sprayer Model: STS 1200 120 ft Boom",Haggi,STS 1200 120 ft Boom
+1310167,Sprayer,"Sprayer Make: Case IH, Sprayer Model: 4430, Year: 2013",Case IH,4430
+1310164,Sprayer,"Sprayer Make: OXBO, Sprayer Model: 7560, Year: 2021",OXBO,7560
+1310157,Sprayer,"Sprayer Make: Hagie , Sprayer Model: STS12",Hagie ,STS12
+1310116,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4730, Year: 2014",John Deere,4730
+1310076,Sprayer,"Sprayer Make: Hagie, Sprayer Model: Sts12, Year: 2014",Hagie,Sts12
+1310011,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4038, Year: 2020",John Deere,4038
+1310009,Sprayer,"Sprayer Make: caseIH, Sprayer Model: 5550, Year: 2022",caseIH,5550
+1310000,Sprayer,"Sprayer Make: Haggi, Sprayer Model: STS 10 90 ft Boom, Year: 2008",Haggi,STS 10 90 ft Boom
+1309924,Sprayer,"Sprayer Make: John Deere, Sprayer Model: R4038, Year: 2021",John Deere,R4038
+1309855,Sprayer,"Sprayer Make: 44440, Sprayer Model: case",44440,case
+1309836,Sprayer,"Sprayer Make: New Holland , Sprayer Model: 275f",New Holland ,275f
+1309829,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: 1895 Disc Drill, Number of Rock Shafts: 6",John Deere,1895 Disc Drill
+1309811,Sprayer,"Sprayer Make: JD, Sprayer Model: R4038, Year: 2019",JD,R4038
+1309770,Sprayer,"Sprayer Make: Deere, Sprayer Model: 4030, Year: 2015",Deere,4030
+1309749,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4630, Year: 2014",John Deere,4630
+1309521,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS12, Year: 12",Hagie,STS12
+1309469,Sprayer,"Sprayer Make: Jd, Sprayer Model: 4038 100 ft, Year: 2019",Jd,4038 100 ft
+1309406,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 24, Air Seeder Model: 1590 Drill",John Deere,1590 Drill
+1309402,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 24, Row Spacing: 7.5"", Air Seeder Model: 1590 Drill",John Deere,1590 Drill
+1309343,Sprayer,"Sprayer Make: CIH, Sprayer Model: 3330",CIH,3330
+1309267,Sprayer,"Sprayer Make: Hagie, Sprayer Model: DTS10, Year: 2007",Hagie,DTS10
+1309168,Sprayer,"Sprayer Make: rogator, Sprayer Model: 1064",rogator,1064
+1309102,Sprayer,"Sprayer Make: Case IH, Sprayer Model: Patriot, Year: 2013 and 2014",Case IH,Patriot
+1308769,Sprayer,"Sprayer Make: Johndeere, Sprayer Model: 412R",Johndeere,412R
+1308720,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Air Seeder Model: 1990",John Deere,1990
+1308079,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 28, Row Spacing: 15"", Air Seeder Model: 1990, Number of Tanks: 1, Frame Type: 3 Section, Variable Rate Motor Brand: Precision Planting",John Deere,1990
+1308078,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 34, Row Spacing: 15"", Air Seeder Model: 1990, Number of Tanks: 1, Frame Type: 3 Section",John Deere,1990
+1307988,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4920",John Deere,4920
+1306951,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 36, Row Spacing: 10"", Air Seeder Model: 1860",John Deere,1860
+1306627,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: 1870",John Deere,1870
+1305897,Air Seeder,"Air Seeder Make: John Deere, Air Seeder Model: 750",John Deere,750
+1305598,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4038R, Year: 2016",John Deere,4038R
+1305416,Sprayer,"Sprayer Make: Jd, Sprayer Model: 4730, Year: 2010",Jd,4730
+1305165,Air Seeder,"Air Seeder Make: John Deere, Row Spacing: 7.5"", Air Seeder Model: 1890, Frame Type: 3 Section, Variable Rate Motor Brand: John Deere, # of VR Motors: 2",John Deere,1890
+1305060,Air Seeder,"Air Seeder Make: John Deere, Air Seeder Model: 1890, Frame Type: 3 Section, Variable Rate Motor Brand: John Deere, # of VR Motors: 2",John Deere,1890
+1304756,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: N542c",John Deere,N542c
+1303169,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6, Frame Type: 3 Section, Variable Rate Motor Brand: John Deere",John Deere,1890
+1303130,Air Seeder,"Air Seeder Make: Great Plains, Number of Rows: 48, Air Seeder Model: 7600, Number of Tanks: ?",Great Plains,7600
+1301398,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 24, Row Spacing: 15"", Air Seeder Model: 1990, Number of Ranks: 1, Number of Rock Shafts: 3, Frame Type: 3 Section",John Deere,1990
+1300510,Air Seeder,"Air Seeder Make: Other:Flexi-Coil, Number of Rows: 44, Row Spacing: Other:9, Air Seeder Model: 5000, Number of Towers: 4",Other,5000
+1300361,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 54, Row Spacing: 10"", Air Seeder Model: 1890, Year: 2014, Number of Towers: 8, Number of Tanks: 3, Number of Ranks: 2, Number of Rock Shafts: 10, Frame Type: 5 Section, Variable Rate Motor Brand: John Deere, # of VR Motors: 3, GPS Model: Case IH , Tractor Make: John Deere, Tractor Model: STX620",John Deere,1890
+1300336,Air Seeder,"Air Seeder Make: Other:Flexi-Coil, Number of Rows: 61, Row Spacing: Other:9, Air Seeder Model: 5000, Number of Towers: 6",Other,5000
+1300055,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1990",John Deere,1990
+1299321,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 52, Row Spacing: 10"", Air Seeder Model: 1895",John Deere,1895
+1299204,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 96, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 10, Frame Type: 5 Section, Variable Rate Motor Brand: John Deere, # of VR Motors: 2, GPS Model: 6000, Tractor Make: John Deere, Tractor Model: 9620RX",John Deere,6000
+1298758,Air Seeder,"Air Seeder Make: CNH, Number of Rows: 16, Row Spacing: 30"", Air Seeder Model: NPX 5310, Year: 2009, Number of Towers: 8, Number of Tanks: 3, Number of Ranks: 1, Number of Rock Shafts: 1, Frame Type: 5 Section, Variable Rate Motor Brand: Other:Morris, # of VR Motors: 3, GPS Model: John Deere, Tractor Make: John Deere, Tractor Model: 9620R",CNH,NPX 5310
+1298170,Air Seeder,"Air Seeder Make: John Deere, Row Spacing: 7.5"", Air Seeder Model: 1990 ccs",John Deere,1990 ccs
+1297498,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Towers: 4",John Deere,1890
+1297264,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 7.5"", Air Seeder Model: 1560, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 2",John Deere,1560
+1297129,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Air Seeder Model: 1990, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6, Frame Type: 3 Section, GPS Model: AgLeader",John Deere,1990
+1297109,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 15"", Air Seeder Model: 1990, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6, Frame Type: 3 Section, GPS Model: AgLeader",John Deere,1990
+1296780,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 56, Air Seeder Model: 1890, Number of Towers: 7, Frame Type: 3 Section",John Deere,1890
+1296326,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Year: 2021, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6",John Deere,1890
+1296277,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 7.5"", Air Seeder Model: 1590",John Deere,1590
+1295906,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 68, Row Spacing: 7.5"", Air Seeder Model: 1990, Frame Type: 3 Section",John Deere,1990
+1295675,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Air Seeder Model: 1990, Variable Rate Motor Brand: Precision Planting, # of VR Motors: 2",John Deere,1990
+1295674,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Air Seeder Model: 1990, Year: 2014, Variable Rate Motor Brand: Precision Planting, # of VR Motors: 2",John Deere,1990
+1295556,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Air Seeder Model: 1890, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 3, Number of Rock Shafts: 10",John Deere,1890
+1295259,Air Seeder,"Air Seeder Make: John Deere, Row Spacing: 7.5"", Air Seeder Model: 1890",John Deere,1890
+1295000,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 84, Row Spacing: 7.5"", Air Seeder Model: 1780, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 6",John Deere,1780
+1294915,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 36, Row Spacing: 10"", Air Seeder Model: 1890, Tractor Make: John Deere",John Deere,1890
+1294383,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890",John Deere,1890
+1294270,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 80, Air Seeder Model: 1890, Number of Towers: 8, Tractor Make: John Deere, Tractor Model: 9410",John Deere,1890
+1293643,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 50, Air Seeder Model: 1890, Year: 2021",John Deere,1890
+1293642,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 16, Row Spacing: 15"", Air Seeder Model: 1590, Number of Ranks: 2, Number of Rock Shafts: 2",John Deere,1590
+1293641,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 16, Row Spacing: 15"", Air Seeder Model: 1590",John Deere,1590
+1293021,Air Seeder,"Air Seeder Make: Amity, Number of Rows: 98, Row Spacing: 7.5"", Air Seeder Model: Concord, Year: 2018, Number of Towers: 8, Number of Tanks: 3, Number of Ranks: 2, Number of Rock Shafts: NA, Frame Type: 5 Section, Variable Rate Motor Brand: Agco, # of VR Motors: 3, GPS Model: JD, Tractor Make: John Deere, Tractor Model: 9620RX",Amity,Concord
+1292223,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 7.5"", Air Seeder Model: 1590, Number of Ranks: 2, Number of Rock Shafts: 2, Frame Type: Single Section",John Deere,1590
+1292214,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Air Seeder Model: 1590, Number of Ranks: 2, Number of Rock Shafts: 2, Frame Type: Single Section",John Deere,1590
+1291076,Air Seeder,"Air Seeder Make: Other:Salford, Row Spacing: 7.5"", Air Seeder Model: 520, Frame Type: 3 Section, Variable Rate Motor Brand: Other:none, # of VR Motors: Other:none, GPS Model: Starfire, Tractor Make: John Deere",Other,520
+1291029,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 10"", Air Seeder Model: 1990, Number of Ranks: 1, Number of Rock Shafts: 3",John Deere,1990
+1291028,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Air Seeder Model: 1990, Number of Ranks: 1, Number of Rock Shafts: 3",John Deere,1990
+1290991,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 32, Row Spacing: 10"", Air Seeder Model: 1990",John Deere,1990
+1290551,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 18, Row Spacing: 10"", Air Seeder Model: 1590",John Deere,1590
+1290366,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 80, Air Seeder Model: 1890, Number of Towers: 8",John Deere,1890
+1290223,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Towers: 8, Number of Ranks: 2, Number of Rock Shafts: 6",John Deere,1890
+1289855,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Towers: 8, Number of Tanks: 2, Number of Ranks: 3, Number of Rock Shafts: 10",John Deere,1890
+1288983,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 48, Row Spacing: 10"", Air Seeder Model: 1890, Number of Towers: 6, Number of Tanks: 2, Number of Ranks: 2, GPS Model: JD, Tractor Make: John Deere, Tractor Model: 8770",John Deere,1890
+1288949,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 50, Row Spacing: 10"", Air Seeder Model: 1910, Number of Towers: 6, Number of Tanks: 2, Number of Ranks: 2, Number of Rock Shafts: 0, Frame Type: 3 Section, GPS Model: JD2630, Tractor Make: John Deere",John Deere,1910
+1288793,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890+1910, Number of Towers: 8, Number of Ranks: 6, Number of Rock Shafts: 6, Frame Type: 3 Section",John Deere,1890
+1288525,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 80, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Towers: 8",John Deere,1890
+1288453,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 36, Row Spacing: 10"", Air Seeder Model: 1990, Year: 2010",John Deere,1990
+1288377,Air Seeder,"Air Seeder Make: Other:Amazone, Number of Rows: 72, Row Spacing: Other:6,53"", Air Seeder Model: Citan 12001-?, Year: 2022, Number of Towers: 2, Number of Tanks: 1, Frame Type: Single Section",Other,Citan 12001
+1287872,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 49, Air Seeder Model: 1890, Number of Towers: 6, Number of Tanks: 2, Number of Ranks: 2, GPS Model: JD, Tractor Make: John Deere, Tractor Model: 8770",John Deere,1890
+1287295,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 66, Air Seeder Model: 737, Year: 1994, Number of Towers: 6, Number of Tanks: 2",John Deere,737
+1210127,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 24, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Towers: 2, Number of Tanks: 2, Number of Ranks: 6",John Deere,1890
