@@ -35,7 +35,7 @@ quote_id,equipment_type,"GROUP_CONCAT(CONCAT(' ',e.equipment_name, ': ', t.value
 1332665,Sprayer,"Sprayer Make: Hagie, Sprayer Model: Sts 12, Year: 2020",Hagie,Sts 12
 1332426,Sprayer,"Sprayer Make: John Deere, Sprayer Model: 4830, Year: 2013",John Deere,4830
 1332035,Sprayer,"Sprayer Make: Hagie, Sprayer Model: STS12",Hagie,STS12
-1331720,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Rock Shafts: 2, Frame Type: 3 Section",John Deere,1890
+1331720,Air Seeder,"Air Seeder Make: John Deere, Number of Rows: 64, Row Spacing: 7.5"", Air Seeder Model: 1890, Number of Rock Shafts: 2, Frction"ame Type: 3 Se,John Deere,1890
 1331343,Sprayer,"Sprayer Make: CASE, Sprayer Model: Patriot 3330, Year: 2016",CASE,Patriot 3330
 1331339,Sprayer,"Sprayer Make: New Holland, Sprayer Model: Guardian, Year: 2018",New Holland,Guardian
 1331250,Sprayer,"Sprayer Make: john Deere, Sprayer Model: 4045",john Deere,4045

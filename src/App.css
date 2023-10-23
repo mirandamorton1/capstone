@@ -85,7 +85,13 @@ body {
 
 #descIcon {
   color: #06b6d4;
-  margin-left: .75rem;
+
+}
+
+#toggleBtn {
+  background: transparent;
+  border: none;
+
 }
 
 #ticketIcon {
@@ -262,6 +268,11 @@ td {
   gap: .5rem;
   align-self: stretch;
   margin-bottom: .5em;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  overflow: auto;
+
 }
 
 #createBtn {
@@ -298,6 +309,30 @@ td {
 
 .custom-close-button {
   color: white !important;
+}
+
+#customerDetailsBtn {
+  background-color: white;
+  color: #00865f;
+  border: solid #00865f;
+  font-family: Roboto;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  border-radius: .25rem;
+  margin-left: 35rem;
+}
+
+#exitBtn {
+  background-color: transparent;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  border: none;
 }
 
 #farmNameModal {
@@ -339,8 +374,6 @@ td {
   border: none;
 }
 
-
-
 .contactText {
   font-family: Roboto;
   font-size: .875rem;
@@ -357,7 +390,7 @@ td {
 
 #editBtn {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   width: 4rem;
   border-radius: .25rem;
@@ -371,6 +404,11 @@ td {
   line-height: 1rem;
   margin-top: 2rem;
   margin-bottom: 1.5rem;
+}
+
+#editNotesBtnIcon {
+  margin-right: 0.25rem; 
+  display: inline-block;
 }
 
 .equipmentCard {
@@ -406,9 +444,153 @@ td {
   font-style: normal;
   font-weight: 400;
   line-height: 1.25rem;
-  color: #6D817B;
+  color: #6d817b;
 }
 
 .ticketsCard {
   border: none;
+}
+
+.updatedAt {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #282f2f;
+}
+
+#ticketInfo {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.25rem;
+  color: #6d817b;
+}
+
+#ticketOutlineIcon {
+  margin-right: .38em;
+}
+
+#ticketIconCount {
+  align-items: center;
+}
+
+#authorIcon {
+  margin-right: .38em;
+}
+
+#questionIcon {
+  margin-right: .5em;
+}
+
+
+.details-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0rem;
+  /* padding-left: 1rem; */
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #6d817b;
+  border-bottom: 1px solid #00000026;
+}
+
+.details-value {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #282f2f;
+}
+
+.details-item div:first-child {
+  width: 30%;
+  text-align: left;
+}
+
+.details-item div:last-child {
+  width: 70%;
+  text-align: center;
+}
+
+.detailTitle {
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+  padding-bottom: .5rem;
+  color: #282f2f;
+  border-bottom: 1px solid #00000026;
+}
+
+#description {
+  padding-bottom: 1rem;
+}
+
+#history {
+  padding-top: 1rem;
+}
+
+#doneBtn {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+  color: #ffffff;
+  border: #00865f;
+  background-color: #00865f;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .05);
+}
+
+#ticketSystemBtn {
+  font-family: Roboto;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+  color: #FFFFFF;
+  background-color: #0000000D;
+  border: none;
+}
+
+.mainBody {
+  padding-left: 1.5rem;
+}
+
+.search-bar {
+  position: relative;
+  width: 200px;
+}
+
+
+.search-button {
+  position: fixed;
+  background: none;
+  border: none;
+}
+
+.search-icon {
+  position: absolute;
+  top: 150%;
+  transform: translateY(-50%);
+}
+
+.text-bg-open {
+  background-color: green;
+}
+
+.text-bg-closed {
+  background-color: red;
+}
+
+.text-bg-pending {
+  background-color: yellow;
 }

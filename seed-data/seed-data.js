@@ -1,38 +1,7 @@
 import { faker } from "@faker-js/faker";
 import * as db from "./db.js";
 
-// const combineProfiles = [];
 
-// fs.createReadStream('./combine_profiles.csv')
-// 	.pipe(csv())
-// 	.on('data', (row) => {
-// 		combineProfiles.push(row)
-// 	})
-// 	.on('end', () => {
-// 		console.log('combine file processed')
-// 	});
-
-// const planterProfiles = [];
-
-// fs.createReadStream('./planter_profiles.csv')
-// 	.pipe(csv())
-// 	.on('data', (row) => {
-// 		planterProfiles.push(row)
-// 	})
-// 	.on('end', () => {
-// 		console.log('planter file processed')
-// 	});
-
-// const sprayerSeederProfiles = [];
-
-// fs.createReadStream('./sprayer_seeder_profiles.csv')
-// 	.pipe(csv())
-// 	.on('data', (row) => {
-// 		sprayerSeederProfiles.push(row)
-// 	})
-// 	.on('end', () => {
-// 		console.log('sprayer seeder file processed')
-// 	});
 
 const generateCustomers = (num) => {
   const customers = [];
@@ -41,6 +10,7 @@ const generateCustomers = (num) => {
     customers.push({
       first_name: faker.person.firstName(),
       last_name: faker.person.lastName(),
+      farm_name: faker.lorem.word(),
       email: faker.internet.email(),
       phone: faker.phone.number(),
       street_address: faker.location.streetAddress(),
@@ -48,6 +18,7 @@ const generateCustomers = (num) => {
       state: faker.location.state(),
       zip: faker.location.zipCode(),
       createdAt: faker.date.past(),
+      notes: faker.lorem.words()
     });
   }
 
@@ -61,7 +32,16 @@ const generateTickets = (customers, numPerCustomer) => {
     for (let i = 0; i < numPerCustomer; i++) {
       tickets.push({
         customer_id: index + 1,
-        issue: faker.lorem.words(),
+        issue: faker.helpers
+        .arrayElement([
+          "20|20 Gen 3",
+          "Photo Upload",
+          "SeederForce",
+          "General Assitance",
+          "Yield",
+          "Output Issue",
+          "Lost Connection"
+        ]),
         status: faker.helpers
           .arrayElement([
             "New",
@@ -69,10 +49,36 @@ const generateTickets = (customers, numPerCustomer) => {
             "Needs Information",
             "Recommendation Provided",
           ]),
-        seasonality: faker.lorem.word(1),
+        seasonality: faker.helpers
+        .arrayElement([
+          "Quoting/Sales",
+          "Placing Orders",
+          "Training",
+          "Installation",
+          "Setup",
+          "Operation",
+          "Diagnostics",
+          "Analysis",
+          "General Inquiry",
+          "RMA"
+        ]),
         support: faker.person.fullName(),
-        descritption: faker.lorem.words(),
-		resolved: faker.datatype.boolean(),
+        description: faker.lorem.words(),
+		    resolved: faker.datatype.boolean(),
+        equip_profile:faker.helpers
+        .arrayElement([
+          "John Deere 750",
+          "Case 4430",
+          "Lexion 470",
+          "Claas 595",
+          "Gleaner M3",
+          "New Holland CR9",
+          "Hagie STS",
+          "Kinze 3120",
+          "Miller 5333"
+        ]),
+        updatedAt: faker.date.past(),
+
       });
     }
   });
@@ -80,29 +86,58 @@ const generateTickets = (customers, numPerCustomer) => {
   return tickets;
 };
 
-const generateNotes = (customers, numPerCustomer) => {
-  const notes = [];
 
-  customers.forEach((c, index) => {
-    for (let i = 0; i < numPerCustomer; i++) {
-      notes.push({ customer_id: index + 1 , text: faker.lorem.paragraph() });
-    }
-  });
+const generatePosts = (tickets, numPerTicket) => {
+	const posts = []
 
-  return notes;
-};
+	tickets.forEach((t, index) => {
+		for (let i = 0; i < numPerTicket; i++) {
+			posts.push({
+				ticket_id: index +1,
+				text: faker.lorem.words(),
+        author_first: faker.person.firstName(),
+        author_last: faker.person.lastName(),
+        updatedAt: faker.date.past(),
+			})
+		}
+	})
+
+	return posts
+}
+
+
+
+
+// const generateNotes = (customers, numPerCustomer) => {
+//   const notes = [];
+
+//   customers.forEach((c, index) => {
+//     for (let i = 0; i < numPerCustomer; i++) {
+//       notes.push({ customer_id: index + 1 , text: faker.lorem.paragraph() });
+//     }
+//   });
+
+//   return notes;
+// };
 
 const insertData = async () => {
-  const customers = new Array(await db.getCustomers());
 
-  const tickets = generateTickets(customers, 5);
+  // const customers = generateCustomers(1000)
 
-//   await db.insertTickets(tickets);
+  // await db.insertCustomers(customers)
+  // const customers = new Array(await db.getCustomers());
 
-  const notes = generateNotes(customers.slice(0,4), 2);
-  console.log(notes)
+  // const tickets = generateTickets(customers, 5);
 
-  await db.insertNotes(notes);
+  // await db.insertTickets(tickets);
+
+  // const posts = generatePosts(tickets, 2)
+	// SQLite
+	// await db.insertData('posts', posts)
+	// MongoDB or MySQL
+	// await db.insertPosts(posts)
+
+  await db.insertRandomProfiles()
 };
 
 insertData();
