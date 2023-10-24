@@ -4,7 +4,7 @@
 
 ## Description
 
-This is an easy to use wedding budget app that lets you set your budget, add wedding vendors along with their price, and keep an eye on your spending all in one place!
+This is a CRUD Customer Central Application intended for the Agricultural Cloud Commercial Team to use. This allows dealers, managers, and sales members to create, and manager customer profiles. 
 
 ### You can watch a walk-through of this app here
 
