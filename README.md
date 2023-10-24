@@ -1,6 +1,70 @@
-# React + TypeScript + Vite
+# Wedding Budget App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description
+
+This is an easy to use wedding budget app that lets you set your budget, add wedding vendors along with their price, and keep an eye on your spending all in one place!
+
+### You can watch a walk-through of this app here
+
+[https://watch.screencastify.com/v/W7AUe4g9nOt3wNXaBySQ](https://watch.screencastify.com/v/Y8MW62lZviM2rhLrFsw7)
+
+<img width="1193" alt="Screenshot 2023-10-24 at 9 42 23 AM" src="https://github.com/mirandamorton1/capstone/assets/107001559/35957708-7fac-41af-bbaf-1525cc4c27ba">
+
+
+## Table of Contents
+
+- [Description](#description)
+- [Usage](#usage)
+- [License](#license)
+- [Technology Used](#technology-used)
+- [Contributors](#contributors)
+- [Questions](#questions)
+
+### Usage:
+
+To use, clone the project and open it in your text editor. To run the express server, enter `node index.js`. Also, enter the command `npm run buid` to start vite and typescript and open localhost:5173. To seed the database, run the command `node seed-data/seed-data.js`.
+
+### License
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+`This project is licensed under MIT`
+
+
+### Technology Used:
+
+- React
+- TypeScript
+- Express
+- Node.js
+- Vite
+- Bootstrap
+- MySQL
+
+
+### Contributors:
+
+To contribute to this project, clone this repo locally and commit your code on a separate branch.
+
+#### Contributors:
+
+- Miranda Morton
+
+### Questions:
+
+If you have any questions regarding this app, feel free to contact us:
+
+#### GitHub:
+
+- https://github.com/mirandamorton1
+
+#### Email:
+
+- miranda.morton1@gmail.com
+
+### Below are recommendations provided by React + TypeScript + Vite
 
 Currently, two official plugins are available:
 
