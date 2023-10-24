@@ -1,8 +1,9 @@
 import { Button, ListGroup, Modal } from "react-bootstrap";
 import { Post, Ticket } from "../context/AppContext";
-import formatDate from "../../ts/date";
 import "../App.css";
 import { HiOutlineUser } from "react-icons/hi";
+import { BsCalendarWeek } from 'react-icons/bs'
+import formatDate from "../../ts/date";
 
 interface TicketDetailsModalProps {
   show: boolean
@@ -67,18 +68,18 @@ console.log(ticket)
           {
             ticket?.posts && ticket?.posts.map((post: Post, index: number) =>
                 <ListGroup.Item key={index}>
-                  <div className="equipmentTitle">
+                  <div className="historyTitle">
                     <div>
                       <div>
                         <HiOutlineUser id="authorIcon" size="1.5em" />
                         {post?.author_first} {post?.author_first}
                       </div>
                       <div className="equipmentCompany">
-                        <HiOutlineUser id="authorIcon" size="1.5em" />
-                        {post?.updatedAt}
+                        <BsCalendarWeek id="authorIcon" size="1.25em" />
+                        {formatDate(post?.updatedAt)}
                       </div>
                     </div>
-                    <div>
+                    <div className="details-value" id="postText">
                       <div>{post?.text}</div>
                     </div>
                   </div>

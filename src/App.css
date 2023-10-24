@@ -69,6 +69,7 @@ body {
   transform: translateY(-50%);
 }
 
+
 #newUserIcon {
   margin-right: 1px;
 }
@@ -85,13 +86,12 @@ body {
 
 #descIcon {
   color: #06b6d4;
-
+  margin-left: .75rem;
 }
 
 #toggleBtn {
   background: transparent;
   border: none;
-
 }
 
 #ticketIcon {
@@ -169,6 +169,34 @@ td {
 
 .table thead tr:last-child th:last-child {
   border-bottom-right-radius: 10px;
+}
+
+.pageBtns {
+  padding-left: 3rem;
+}
+
+#prevBtn {
+  background-color: #00865f;
+  border-color: #00865f;
+  color: white;
+  border-radius: .375rem;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+#nextBtn {
+  background-color: #00865f;
+  border-color: #00865f;
+  color: white;
+  border-radius: .375rem;
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
 }
 
 .modal-dialog {
@@ -272,7 +300,6 @@ td {
   margin: 0;
   line-height: 1;
   overflow: auto;
-
 }
 
 #createBtn {
@@ -407,13 +434,90 @@ td {
 }
 
 #editNotesBtnIcon {
-  margin-right: 0.25rem; 
+  margin-right: .25rem;
   display: inline-block;
 }
 
 .equipmentCard {
   border: none;
   margin-bottom: 1.5rem;
+}
+
+.sprayer-badge {
+  background-color: #dbeafe;
+  color: #1e40af !important;
+  font-family: Roboto;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.seeder-badge {
+  background-color: #fce7f3;
+  color: #9d174d !important;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.combine-badge {
+  background-color: #fef3c7;
+  color: #92400e !important;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.planter-badge {
+  background-color: #c8ffe1;
+  color: #006b4d !important;
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1rem;
+}
+
+.report-badge {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  background-color: #dbeafe;
+  color: #1e40af !important;
+}
+
+.information-badge {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  background-color: rgb(253, 214, 214);
+  color: rgb(186, 9, 9) !important;
+}
+
+.new-badge {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  background-color: #fef3c7;
+  color: #92400e !important;
+}
+
+.rec-badge {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  background-color: lightgray;
+  color: rgb(60, 59, 59) !important;
 }
 
 .equipmentTitle {
@@ -485,6 +589,17 @@ td {
   margin-right: .5em;
 }
 
+/* for the posts specifically */
+.details-value {
+  flex-grow: 2;
+  text-align: center;
+}
+
+.details-item {
+  flex-grow: 3;
+  text-align: center;
+  margin-right: 20rem;
+}
 
 .details-item {
   display: flex;
@@ -556,8 +671,8 @@ td {
   font-style: normal;
   font-weight: 500;
   line-height: 1rem;
-  color: #FFFFFF;
-  background-color: #0000000D;
+  color: #ffffff;
+  background-color: #0000000d;
   border: none;
 }
 
@@ -570,12 +685,16 @@ td {
   width: 200px;
 }
 
-
 .search-button {
   position: fixed;
   background: none;
   border: none;
 }
+
+/* .search-button:hover {
+  visibility: hidden;
+} */
+
 
 .search-icon {
   position: absolute;
@@ -593,4 +712,33 @@ td {
 
 .text-bg-pending {
   background-color: yellow;
+}
+
+.historyTitle {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+.rowInt {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem; 
+  color: #282F2F;
+  margin-right: .25rem;
+}
+
+.spaceInt {
+  font-family: Roboto;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.25rem;
+  color: #282F2F; 
+  margin-right: .25rem;
+  margin-left: 1rem;
 }

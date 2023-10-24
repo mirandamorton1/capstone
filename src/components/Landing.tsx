@@ -8,11 +8,17 @@ import { useState, useContext, useEffect } from "react";
 import ExistingCustomerModal from "./ExistingCustomerModal";
 import { AppContext, AppContextType } from "../context/AppContext";
 import { Button } from "react-bootstrap";
+import NewCustomerModal from "./NewCustomerModal";
 
-const Landing = () => {
+interface LandingProps {
+  showNewModal: boolean;
+  toggleNewModal: ()=> void;
+}
+
+const Landing = (props: LandingProps) => {
+  const {showNewModal, toggleNewModal} = props;
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(50);
-  const [sortBy, setSortBy] = useState('first_name')
   const [sortOrder, setSortOrder] = useState('ASC')
   const { customers, setCustomers } = useContext<AppContextType>(AppContext);
   const { selectedCustomer, setSelectedCustomer } =
@@ -75,10 +81,14 @@ const Landing = () => {
               </svg>
               {` `}
               NAME
-              <Button id="toggleBtn" onClick={() => setSortOrder(sortOrder === 'ASC' ? 'DESC' : 'ASC')}> <HiSortDescending id="descIcon" size="1.5em"  /> </Button>
+              <HiSortDescending 
+              id="descIcon" 
+              size="1.5em"  
+               onClick={() => setSortOrder(sortOrder === 'ASC' ? 'DESC' : 'ASC')}/> 
             </th>
             <th scope="col">
               <HiMiniMegaphone id="megaphoneIcon" size="1.5em" /> CONTACT
+      
             </th>
             <th scope="col">
               <HiTicket id="ticketIcon" size="1.5em" />
@@ -129,19 +139,20 @@ const Landing = () => {
       </table>
       </div>
       <div className="pageBtns">
-      <button
+      <button id="prevBtn"
         disabled={currentPage === 1}
         onClick={() => setCurrentPage((old) => Math.max(old - 1, 1))}
       >
         Previous
       </button>
-      <button onClick={() => setCurrentPage((old) => old + 1)}>Next</button>
+      <button id="nextBtn" onClick={() => setCurrentPage((old) => old + 1)}>Next</button>
       <p>Page {currentPage}</p>
       </div>
+      <NewCustomerModal show={showNewModal} toggleNewModal={toggleNewModal} customer={selectedCustomer} profile={null}/>
       <ExistingCustomerModal
         show={showModal}
         handleClose={handleCloseModal}
-        customer={selectedCustomer} profile={null} posts={null}      />
+        customer={selectedCustomer} profile={null} posts={null}    />
    
     </>
   );

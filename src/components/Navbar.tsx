@@ -3,10 +3,23 @@ import { useState, useContext } from "react";
 import NewCustomerModal from "./NewCustomerModal";
 import { AppContext, AppContextType } from "../context/AppContext";
 import { Button } from "react-bootstrap";
+import { HiUserPlus } from "react-icons/hi2";
 
-const Navbar = () => {
+interface NavBarProps {
+  toggleNewModal: () => void;
+  showNewModal: boolean;
+}
+
+const Navbar = (props: NavBarProps) => {
+  const {toggleNewModal, showNewModal} = props;
+
   const [searchValue, setSearchValue] = useState("");
   const { setCustomers } = useContext<AppContextType>(AppContext);
+
+  const [showModal, setShowModal] = useState(false);
+  const handleCloseModal = () => setShowModal(false);
+  const handleShowModal = () => setShowModal(true);
+
 
   const handleSearchClick = async (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>
@@ -27,7 +40,15 @@ const Navbar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <a className="navbar-brand" href="#">
-        <NewCustomerModal customer={null} profile={null} />
+      <Button
+        className="btn"
+        id="newCustomerBtn"
+        variant="primary"
+        onClick={toggleNewModal}
+      >
+        <HiUserPlus id="newUserIcon" size="1.25em" /> New Customer
+      </Button>
+        {/* <NewCustomerModal customer={null} profile={null} /> */}
       </a>
       <form className="form-inline">
         <div className="search-bar">

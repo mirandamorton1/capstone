@@ -12,6 +12,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import NewCustomerModal from "./NewCustomerModal";
 import TicketDetailsModal from "./TicketDetailsModal";
 
+
 interface MyModalProps {
   show: boolean
   customer: Customer | null
@@ -22,6 +23,9 @@ interface MyModalProps {
 
 const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile, posts }) => {
   const { tickets, setTickets } = useContext<AppContextType>(AppContext);
+
+  // use this from existing user condition onclick
+  const [showNewModal, setShowNewModal] = useState(false)
 
   const {editCustomerNotes} = useContext(AppContext)
   const {profiles, setProfiles} = useContext(AppContext)
@@ -40,6 +44,10 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
   setSelectedTicket(ticket);
   setShowTicketModal(true);
   };
+
+  const handleCloseNewModal = () => {
+    setShowNewModal(false)
+  }
 
   const handleCloseTicketModal = () => {
   setShowTicketModal(false);
@@ -123,7 +131,7 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
   
   return (
     <>
-    <Modal show={show} onHide={handleClose}>
+    <Modal show={show} onHide={handleCloseNewModal}>
       <Modal.Header>
         <div>
           <Modal.Title>
@@ -136,11 +144,11 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
         className="btn"
         id="customerDetailsBtn"
         variant="primary"
-        onClick={handleShowModal}
+        onClick={() => {setShowNewModal(true)}}
       >
         <FiEdit id="newUserIcon" size="1.25em" /> Customer Details
       </Button>
-      {showModal && <NewCustomerModal customer={customer} profile={profiles} />}
+     <NewCustomerModal show={showNewModal}  customer={customer} profile={profiles} handleClose={() => setShowNewModal(false)} />
       <Button id="exitBtn" onClick={handleClose}>
       <AiOutlineClose  size="1.75em"/>
       </Button>
@@ -209,7 +217,7 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
           </Card>
         </div>
         <Card className="equipmentCard">
-          <Card.Title className="cardHeader">Equiptment</Card.Title>
+          <Card.Title className="cardHeader">Equipment</Card.Title>
           <ListGroup variant="flush">
             {
             profiles.map((profile, index) =>
@@ -220,13 +228,17 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
                   <div className="equipmentCompany">{profile?.model}</div>
                 </div>
                 <div>
-                  <div className="badge rounded-pill text-bg-success">
+                  <div className={`badge rounded-pill text-white ${profile?.equipment_type === "Sprayer" ? "sprayer-badge" :
+                    profile?.equipment_type === "Seeder" ? "seeder-badge" :
+                    profile?.equipment_type === "Combine" ? "combine-badge" :
+                    profile?.equipment_type === "Planter" ? "planter-badge" : ""
+            }`}>
                   {profile?.equipment_type}
                   </div>
                   <div className="rowsSpacing">
-                    <span># </span>
-                    <span>Rows </span>
-                    <span>#"</span>
+                    <span className="rowInt">{profile?.rows}</span>
+                    <span>Rows</span>
+                    <span className="spaceInt">{profile?.spacing}"</span>
                     <span> Spacing</span>
                   </div>
                 </div>
@@ -245,7 +257,6 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
                   <div className="equipmentTitle">
                     <div
                       style={{
-                        border: "1px solid purple",
                         display: "flex",
                         flex: 1,
                       }}
@@ -259,7 +270,6 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
                     </div>
                     <div
                       style={{
-                        border: "1px solid purple",
                         display: "flex",
                         flexDirection: "column",
                         flex: 1,
@@ -273,9 +283,7 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
                       </div>
                       <div
                         style={{ 
-                          border: "1px solid deeppink",
                           display: "flex",
-
                          }}
                         // className="row"
                         id="ticketInfo"
@@ -317,7 +325,6 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
                     </div>
                     <div
                       style={{
-                        border: "1px solid purple",
                         display: "flex",
                         justifyContent: "flex-end",
                         alignItems: "center",
@@ -325,7 +332,11 @@ const MyModal: React.FC<MyModalProps> = ({ show, handleClose, customer, profile,
                       }}
                       className="col-md-4 text-end"
                     >
-                      <div className="badge rounded-pill text-bg-success">
+                      <div className={`badge rounded-pill text-white ${ticket?.status === "New" ? "new-badge" :
+                    ticket?.status === "Report" ? "report-badge" :
+                    ticket?.status === "Needs Information" ? "information-badge" :
+                    ticket?.status === "Recommendation Provided" ? "rec-badge" : ""
+            }`}>
                         {ticket?.status}
                       </div>
                     </div>

@@ -36,6 +36,8 @@ export type Customer = {
     equipment_type: string;
     make: string;
     model: string;
+    rows: number;
+    spacing: number
   }
 
   export type Post = {

@@ -8,11 +8,15 @@ import { AppContext, Customer, Profile } from "../context/AppContext";
 interface NewCustomerProps {
   customer: Customer | null
   profile: Profile | null
+  show: boolean;
+  toggleNewModal: () => void;
+  handleClose: () => void;
 }
 
 const NewCustomerModal: React.FC<NewCustomerProps> = ({
   customer,
   profile,
+  show, toggleNewModal, handleClose
 }) => {
   const [showModal, setShowModal] = useState(false);
   const handleCloseModal = () => setShowModal(false);
@@ -62,8 +66,9 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
-
-        handleCloseModal();
+        alert('Account deleted successfully'); 
+        handleClose();
+        window.location.reload();
 
       } catch (error) {
         console.error('Error:', error);
@@ -108,11 +113,15 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
       if (customer) {
         editCustomer(result.data.updatedCustomer);
         alert('Account updated successfully.'); 
+        handleClose();
+        window.location.reload();
       } else {
         addCustomer(result.data.customer);
         alert('Account created successfully.'); 
+        handleCloseModal();
+        window.location.reload();
       }
-      handleCloseModal();
+    
     }
     
     catch (err) {
@@ -123,16 +132,8 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
 
   return (
     <>
-      <Button
-        className="btn"
-        id="newCustomerBtn"
-        variant="primary"
-        onClick={handleShowModal}
-      >
-        <HiUserPlus id="newUserIcon" size="1.25em" /> New Customer
-      </Button>
 
-      <Modal show={showModal} onHide={handleCloseModal}>
+      <Modal show={show} onHide={handleCloseModal}>
         <Modal.Header>
           <Modal.Title>
             {isUpdate ? "Customer Details" : "New Customer Profile"}
@@ -262,7 +263,7 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
               </Col>
             </Row>
 
-            <h5 className="modalHeaders" id="equiptmentProfile">
+             <h5 className="modalHeaders" id="equiptmentProfile">
               Equipment Profile
             </h5>
             {
@@ -283,7 +284,8 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
             </Form.Select>
           </Form.Group>
         </Col>
-      </Row><Row>
+      </Row>
+      <Row>
           <Col>
             <Form.Group>
               <Form.Label>[Equipment Type] Make</Form.Label>
@@ -294,7 +296,7 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
                    <option value="">Select...</option>
               <option value="option1">Option 1</option>
               <option value="option2">Option 2</option>
-              {/* ... */}
+  
             </Form.Select>
             </Form.Group>
           </Col>
@@ -306,13 +308,11 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
                 value={profile.model}
                 onChange={(e) => setModel(e.target.value)} >
                    <option value="">Select...</option>
-              <option value="option1">Option 1</option>
-              <option value="option2">Option 2</option>
-              {/* ... */}
             </Form.Select>
             </Form.Group>
           </Col>
-        </Row></>
+        </Row>
+        </>
     )
   }
             <Row>
@@ -341,7 +341,7 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
                 </Button>
                 {` `}
               </Col>
-            </Row>
+            </Row> 
             <h5 className="modalHeaders" id="modalNotes">
               Notes
             </h5>
@@ -368,10 +368,13 @@ const NewCustomerModal: React.FC<NewCustomerProps> = ({
                   </Button>
 
               }
+         
               <Button
                 id="cancelBtn"
                 variant="secondary"
-                onClick={handleCloseModal}
+                onClick={isUpdate ? handleClose : toggleNewModal}
+                // onClick={handleClose}
+                // onClick={() => {toggleNewModal()}}
               >
                 Cancel
               </Button>

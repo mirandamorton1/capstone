@@ -84,7 +84,9 @@ export async function getEquipmentByCustomerId(customer_id) {
       cp.*, 
       p.equipment_type, 
       p.make, 
-      p.model 
+      p.model,
+      p.rows,
+      p.spacing
     FROM 
       customers_to_profiles cp
     JOIN 
