@@ -1,40 +1,37 @@
-import { BiSearch } from "react-icons/bi";
-import { useState, useContext } from "react";
-import NewCustomerModal from "./NewCustomerModal";
-import { AppContext, AppContextType } from "../context/AppContext";
-import { Button } from "react-bootstrap";
-import { HiUserPlus } from "react-icons/hi2";
+import { useContext,useState } from 'react';
+import { Button } from 'react-bootstrap';
+import { BiSearch } from 'react-icons/bi';
+import { HiUserPlus } from 'react-icons/hi2';
+import { AppContext, AppContextType } from '../context/AppContext';
 
-interface NavBarProps {
+type NavBarProps = {
   toggleNewModal: () => void;
   showNewModal: boolean;
 }
 
 const Navbar = (props: NavBarProps) => {
-  const {toggleNewModal, showNewModal} = props;
-
-  const [searchValue, setSearchValue] = useState("");
+  const {toggleNewModal} = props;
+  const [searchValue, setSearchValue] = useState(``);
   const { setCustomers } = useContext<AppContextType>(AppContext);
 
-  const [showModal, setShowModal] = useState(false);
-  const handleCloseModal = () => setShowModal(false);
-  const handleShowModal = () => setShowModal(true);
-
-
   const handleSearchClick = async (
-    e: React.MouseEvent<HTMLButtonElement, MouseEvent>
   ) => {
-    e.preventDefault();
+
     try {
       const response = await fetch(
         `http://localhost:3000/customers/search/${searchValue}`
       );
       const result = await response.json();
-      console.log(`search result:`, result);
-      console.dir(result.data);
       setCustomers(result.data.customers);
     }
-    catch (err) {}
+    catch {}
+  };
+
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === 'Enter') {
+      e.preventDefault();
+      handleSearchClick();
+    }
   };
 
   return (
@@ -48,21 +45,19 @@ const Navbar = (props: NavBarProps) => {
       >
         <HiUserPlus id="newUserIcon" size="1.25em" /> New Customer
       </Button>
-        {/* <NewCustomerModal customer={null} profile={null} /> */}
       </a>
       <form className="form-inline">
         <div className="search-bar">
-          <Button className="search-button" onClick={handleSearchClick}>
-            <BiSearch className="search-icon" />
-          </Button>
-
-          <input
-            aria-label="Search"
+            <BiSearch className="search-icon"
+            type="submit" onClick={handleSearchClick} />
+          <input          aria-label="Search"
             className="form-control"
+            id="searchInput"
             placeholder="Search"
             type="search"
             value={searchValue}
             onChange={(e) => setSearchValue(e.target.value)}
+            onKeyUp={handleKeyPress}
           />
         </div>
       </form>

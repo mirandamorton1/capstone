@@ -42,8 +42,26 @@ body {
   transform: translateY(-50%);
 }
 
+#searchInput {
+  color: white !important;
+}
+
+.form-control::-ms-clear {
+  display: none;
+}
+
+.form-control::-webkit-search-cancel-button {
+  display: none;
+}
+
 .input:placeholder-shown + .placeholder {
   color: white !important;
+}
+
+.form-control:focus {
+  border-color: white;
+  box-shadow: 0 0 .125rem .0625rem rgba(255, 255, 255, .5);
+  caret-color: white;
 }
 
 ::-webkit-input-placeholder {
@@ -69,7 +87,6 @@ body {
   transform: translateY(-50%);
 }
 
-
 #newUserIcon {
   margin-right: 1px;
 }
@@ -87,6 +104,7 @@ body {
 #descIcon {
   color: #06b6d4;
   margin-left: .75rem;
+  cursor: pointer;
 }
 
 #toggleBtn {
@@ -101,6 +119,16 @@ body {
 
 #phoneIcon {
   color: #6d817b;
+}
+
+.clickable-row:hover {
+  background-color: rgb(247, 245, 245);
+  cursor: pointer;
+}
+
+.clickable-row:hover td {
+  background-color: rgb(247, 245, 245);
+  cursor: pointer;
 }
 
 .table-container {
@@ -171,8 +199,22 @@ td {
   border-bottom-right-radius: 10px;
 }
 
-.pageBtns {
+ul.pagination {
   padding-left: 3rem;
+  color: #00865f !important;
+}
+
+li.page-item {
+  color: #00865f !important;
+}
+
+span.page-link {
+  border: #00865f !important;
+}
+
+.disabled-prev {
+  background-color: white;
+  color: #00865f !important;
 }
 
 #prevBtn {
@@ -201,6 +243,11 @@ td {
 
 .modal-dialog {
   max-width: 90%;
+}
+
+.list-item:hover {
+  background-color: rgb(247, 245, 245);
+  cursor: pointer;
 }
 
 .modal-header {
@@ -258,7 +305,7 @@ td {
   flex: 1 0 0;
 }
 
-#formSpacing {
+#formEquipmentModel {
   margin-bottom: 1rem;
 }
 
@@ -279,6 +326,11 @@ td {
   height: 2rem;
   margin-bottom: 1.5em;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, .05);
+}
+
+#newEquipmentBtn:hover {
+  background-color: rgb(207, 53, 53) !important;
+  cursor: pointer;
 }
 
 #modalNotes {
@@ -330,9 +382,9 @@ td {
   color: red;
 }
 
-.modal-content {
+/* .modal-content {
   border-radius: 1.55rem;
-}
+} */
 
 .custom-close-button {
   color: white !important;
@@ -589,23 +641,18 @@ td {
   margin-right: .5em;
 }
 
-/* for the posts specifically */
-.details-value {
+.details-post {
+  display: flex;
   flex-grow: 2;
   text-align: center;
-}
-
-.details-item {
-  flex-grow: 3;
-  text-align: center;
-  margin-right: 20rem;
+  font-weight: 400;
 }
 
 .details-item {
   display: flex;
-  justify-content: space-between;
+  flex-grow: 2;
+  text-align: center;
   padding: 1rem 0rem;
-  /* padding-left: 1rem; */
   font-family: Roboto;
   font-size: .875rem;
   font-style: normal;
@@ -615,7 +662,17 @@ td {
   border-bottom: 1px solid #00000026;
 }
 
+.details-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  text-align: left;
+}
+
 .details-value {
+  display: flex;
+  flex-grow: 2;
+  text-align: center;
   font-family: Roboto;
   font-size: .875rem;
   font-style: normal;
@@ -624,14 +681,26 @@ td {
   color: #282f2f;
 }
 
-.details-item div:first-child {
-  width: 30%;
-  text-align: left;
+.history-info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
 }
 
-.details-item div:last-child {
-  width: 70%;
-  text-align: center;
+.historyTitle {
+  display: flex;
+  border-bottom: 1px solid #00000026;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* .details-item div:first-child {
+  width: 30%;
+  text-align: left;
+} */
+
+.historyTitle div:last-child {
+  border-bottom: none;
 }
 
 .detailTitle {
@@ -676,6 +745,76 @@ td {
   border: none;
 }
 
+.confirmationModal {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 32rem;
+
+}
+
+#deleteBtn {
+  color: #dc2626;
+  background-color: white;
+  border: none;
+}
+
+.confirmBody {
+  display: flex;
+  align-items: center;
+}
+
+.icon-container {
+  padding: 1.5rem 1.5rem 1rem 1.5rem;
+}
+
+.confirmTitle {
+  font-family: Roboto;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5rem;
+}
+
+.confirmP {
+  font-family: Roboto;
+  font-size: .875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.25rem;
+}
+
+.confirmationText {
+  padding-top: 1.5rem;
+}
+
+.confirmCancelBtn {
+  background-color: white;
+  color: #525e5b;
+  border: 1px #525e5b !important;
+}
+
+.finalDeleteBtn {
+  padding-top: 1rem;
+}
+
+.confirmCancelBtn:hover {
+  background-color: #888989;
+}
+
+
+#exclamationIcon {
+  background-color: #fee2e2;
+  background-size: 5rem;
+  border-radius: 1.5rem;
+  font-size: 1.75rem;
+}
+
+.confirmFooter {
+  background-color: #f8fbfa;
+}
+
 .mainBody {
   padding-left: 1.5rem;
 }
@@ -686,19 +825,12 @@ td {
 }
 
 .search-button {
-  position: fixed;
   background: none;
   border: none;
 }
 
-/* .search-button:hover {
-  visibility: hidden;
-} */
-
-
 .search-icon {
-  position: absolute;
-  top: 150%;
+  top: 55%;
   transform: translateY(-50%);
 }
 
@@ -724,21 +856,27 @@ td {
 
 .rowInt {
   font-family: Roboto;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.25rem; 
-  color: #282F2F;
+  line-height: 1.25rem;
+  color: #282f2f;
   margin-right: .25rem;
 }
 
 .spaceInt {
   font-family: Roboto;
-  font-size: 0.875rem;
+  font-size: .875rem;
   font-style: normal;
   font-weight: 500;
   line-height: 1.25rem;
-  color: #282F2F; 
+  color: #282f2f;
   margin-right: .25rem;
   margin-left: 1rem;
+}
+
+#formEquipmentMake:disabled,
+#formEquipmentModel:disabled {
+  color: gray;
+  background: transparent;
 }
